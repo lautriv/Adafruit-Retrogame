@@ -1,4 +1,8 @@
 /*
+Modifications by: Ian Barton (Github - Lautriv)
+
+Forked from the Adafruit repository for personal usage.
+
 ADAFRUIT RETROGAME UTILITY: remaps buttons on Raspberry Pi GPIO header
 to virtual USB keyboard presses.  Great for classic game emulators!
 Retrogame is interrupt-driven and efficient (usually under 0.3% CPU use)
@@ -89,7 +93,11 @@ struct {
 	{ 10,      KEY_UP       },
 	{ 17,      KEY_DOWN     },
 	{ 23,      KEY_LEFTCTRL },
-	{  7,      KEY_LEFTALT  }
+	{  7,      KEY_ENTER    },
+	{  8,      KEY_P        },
+	{ 11,      KEY_ESC      },
+	{  2,      KEY_1        },
+	{  3,      KEY_2        },
 };
 #define IOLEN (sizeof(io) / sizeof(io[0])) // io[] table size
 
