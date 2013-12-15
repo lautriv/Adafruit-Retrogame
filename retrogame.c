@@ -96,8 +96,8 @@ struct {
 	{  7,      KEY_ENTER    },
 	{  8,      KEY_P        },
 	{ 11,      KEY_ESC      },
-	{  2,      KEY_1        },
-	{  3,      KEY_2        },
+	{ 21,      KEY_1        },
+	{ 22,      KEY_2        },
 };
 #define IOLEN (sizeof(io) / sizeof(io[0])) // io[] table size
 
